@@ -1,0 +1,58 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "ai-zippy-child/calla-events-listings",
+	"version": "1.0.0",
+	"title": "Calla Events Listings",
+	"category": "calla-events-page",
+	"icon": "calendar-alt",
+	"description": "Events page tagline, filter tabs, and event card grid.",
+	"keywords": ["calla", "events", "listings", "cards"],
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"]
+	},
+	"attributes": {
+		"taglinePrimary": {
+			"type": "string",
+			"default": "Interested? Drop us a text!"
+		},
+		"taglineSecondary": {
+			"type": "string",
+			"default": "Check out our upcoming events and past events here."
+		},
+		"allLabel": {
+			"type": "string",
+			"default": "All Events"
+		},
+		"upcomingLabel": {
+			"type": "string",
+			"default": "Upcoming"
+		},
+		"pastLabel": {
+			"type": "string",
+			"default": "Past Events"
+		},
+		"emptyText": {
+			"type": "string",
+			"default": "No events found."
+		},
+		"events": {
+			"type": "array",
+			"default": [
+				{"status":"upcoming","imageId":0,"imageUrl":"","imageAlt":"","date":"1 January 2026, 6:00 pm - 8:00 pm","title":"Event Name","description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.","instructor":"Instructor: The Calla Project","linkUrl":"event-detail.html","actionText":"Learn more"},
+				{"status":"upcoming","imageId":0,"imageUrl":"","imageAlt":"","date":"1 January 2026, 6:00 pm - 8:00 pm","title":"Event Name","description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.","instructor":"Instructor: The Calla Project","linkUrl":"event-detail.html","actionText":"Learn more"},
+				{"status":"upcoming","imageId":0,"imageUrl":"","imageAlt":"","date":"1 January 2026, 6:00 pm - 8:00 pm","title":"Event Name","description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.","instructor":"Instructor: The Calla Project","linkUrl":"event-detail.html","actionText":"Learn more"},
+				{"status":"past","imageId":0,"imageUrl":"","imageAlt":"","date":"1 December 2025, 6:00 pm - 8:00 pm","title":"Event Name","description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.","instructor":"Instructor: The Calla Project","linkUrl":"event-detail.html","actionText":"View recap"},
+				{"status":"past","imageId":0,"imageUrl":"","imageAlt":"","date":"15 November 2025, 6:00 pm - 8:00 pm","title":"Event Name","description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.","instructor":"Instructor: The Calla Project","linkUrl":"event-detail.html","actionText":"View recap"},
+				{"status":"past","imageId":0,"imageUrl":"","imageAlt":"","date":"1 November 2025, 10:00 am - 12:00 pm","title":"Event Name","description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.","instructor":"Instructor: The Calla Project","linkUrl":"event-detail.html","actionText":"View recap"}
+			]
+		}
+	},
+	"textdomain": "ai-zippy-child",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"render": "file:./render.php"
+}

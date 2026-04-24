@@ -1,0 +1,113 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ai-zippy-child/calla-careers-listings",
+  "version": "1.0.0",
+  "title": "Calla Careers Listings",
+  "category": "calla-careers",
+  "icon": "portfolio",
+  "description": "Careers page job cards with side contact panel.",
+  "keywords": [
+    "calla",
+    "careers",
+    "jobs",
+    "listings"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "contactEyebrow": {
+      "type": "string",
+      "default": "Get in touch"
+    },
+    "contactHeading": {
+      "type": "string",
+      "default": "Interested in joining us?"
+    },
+    "addressLabel": {
+      "type": "string",
+      "default": "Our Address"
+    },
+    "addressText": {
+      "type": "string",
+      "default": "123 Wellness Street<br>#01-01 The Calla Building<br>Singapore 000000"
+    },
+    "hoursLabel": {
+      "type": "string",
+      "default": "Our Operating Hours"
+    },
+    "hoursText": {
+      "type": "string",
+      "default": "Monday – Friday<br>9:00 am – 9:00 pm"
+    },
+    "emailLabel": {
+      "type": "string",
+      "default": "Our Email"
+    },
+    "emailText": {
+      "type": "string",
+      "default": "hello@thecallaproject.sg"
+    },
+    "emailUrl": {
+      "type": "string",
+      "default": "mailto:hello@thecallaproject.sg"
+    },
+    "phoneLabel": {
+      "type": "string",
+      "default": "Our Contact Number"
+    },
+    "phoneText": {
+      "type": "string",
+      "default": "+65 0000 0000"
+    },
+    "phoneUrl": {
+      "type": "string",
+      "default": "tel:+6500000000"
+    },
+    "emptyText": {
+      "type": "string",
+      "default": "No openings at the moment. Please check back soon."
+    },
+    "jobs": {
+      "type": "array",
+      "default": [
+        {
+          "tag": "Full-time · Singapore",
+          "title": "Job Title 1",
+          "description": "Description of the role, responsibilities, and what makes working at The Calla Project unique. We're looking for someone who shares our passion for wellness and community.",
+          "employmentType": "Full-time",
+          "workMode": "On-site",
+          "applyText": "Apply now",
+          "applyUrl": "mailto:hello@thecallaproject.sg?subject=Application:%20Job%20Title%201",
+          "imageId": 0,
+          "imageUrl": "",
+          "imageAlt": "",
+          "imagePlaceholder": "Image 1"
+        },
+        {
+          "tag": "Part-time · Singapore",
+          "title": "Job Title 2",
+          "description": "Description of the role, responsibilities, and what makes working at The Calla Project unique. We're looking for someone who shares our passion for wellness and community.",
+          "employmentType": "Part-time",
+          "workMode": "On-site",
+          "applyText": "Apply now",
+          "applyUrl": "mailto:hello@thecallaproject.sg?subject=Application:%20Job%20Title%202",
+          "imageId": 0,
+          "imageUrl": "",
+          "imageAlt": "",
+          "imagePlaceholder": "Image 2"
+        }
+      ]
+    }
+  },
+  "textdomain": "ai-zippy-child",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

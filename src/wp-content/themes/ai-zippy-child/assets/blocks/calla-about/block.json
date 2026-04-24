@@ -1,0 +1,82 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ai-zippy-child/calla-about",
+  "version": "1.0.0",
+  "title": "Calla About",
+  "category": "calla-home",
+  "icon": "groups",
+  "description": "About section with text content and a single featured image.",
+  "keywords": [
+    "calla",
+    "about",
+    "wellness",
+    "studio"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "About Us"
+    },
+    "description": {
+      "type": "string",
+      "default": "Born from the idea that recovery is a daily necessity, The Calla Project balances energy with calm. Every detail, from nourishing meals to serene recovery zones is designed to help you restore and reconnect through a joyful, shared wellness experience."
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "More About Us"
+    },
+    "buttonUrl": {
+      "type": "string",
+      "default": "#"
+    },
+    "image1Id": {
+      "type": "number",
+      "default": 0
+    },
+    "image1Url": {
+      "type": "string",
+      "default": ""
+    },
+    "image1Alt": {
+      "type": "string",
+      "default": ""
+    },
+    "image2Id": {
+      "type": "number",
+      "default": 0
+    },
+    "image2Url": {
+      "type": "string",
+      "default": ""
+    },
+    "image2Alt": {
+      "type": "string",
+      "default": ""
+    },
+    "image3Id": {
+      "type": "number",
+      "default": 0
+    },
+    "image3Url": {
+      "type": "string",
+      "default": ""
+    },
+    "image3Alt": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "ai-zippy-child",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

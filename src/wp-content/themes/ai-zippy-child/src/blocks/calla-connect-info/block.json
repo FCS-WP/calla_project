@@ -1,0 +1,74 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "ai-zippy-child/calla-connect-info",
+	"version": "1.0.0",
+	"title": "Calla Connect Info",
+	"category": "calla-connect",
+	"icon": "location-alt",
+	"description": "Address and opening hours card for the Connect page.",
+	"keywords": ["calla", "connect", "address", "hours"],
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"]
+	},
+	"attributes": {
+		"addressHeading": {
+			"type": "string",
+			"default": "Our Address"
+		},
+		"address": {
+			"type": "string",
+			"default": "123 Wellness Street<br>#01-01 The Calla Building<br>Singapore 000000"
+		},
+		"mapLinkText": {
+			"type": "string",
+			"default": "View on Google Maps"
+		},
+		"mapLinkUrl": {
+			"type": "string",
+			"default": "#map"
+		},
+		"hoursHeading": {
+			"type": "string",
+			"default": "Opening Hours"
+		},
+		"hoursDay1": {
+			"type": "string",
+			"default": "Monday - Friday"
+		},
+		"hoursTime1": {
+			"type": "string",
+			"default": "9:00 am - 9:00 pm"
+		},
+		"hoursDay2": {
+			"type": "string",
+			"default": "Saturday"
+		},
+		"hoursTime2": {
+			"type": "string",
+			"default": "9:00 am - 6:00 pm"
+		},
+		"hoursDay3": {
+			"type": "string",
+			"default": "Sunday"
+		},
+		"hoursTime3": {
+			"type": "string",
+			"default": "Closed"
+		},
+		"hoursDay4": {
+			"type": "string",
+			"default": "Public Holidays"
+		},
+		"hoursTime4": {
+			"type": "string",
+			"default": "Closed"
+		}
+	},
+	"textdomain": "ai-zippy-child",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}

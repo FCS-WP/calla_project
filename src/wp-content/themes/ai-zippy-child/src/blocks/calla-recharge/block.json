@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "ai-zippy-child/calla-recharge",
+	"version": "1.0.0",
+	"title": "Calla Recharge",
+	"category": "calla-home",
+	"icon": "performance",
+	"description": "Recharge section with text and ambient media.",
+	"keywords": ["calla", "recharge", "wellness", "section"],
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"]
+	},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Recharge"
+		},
+		"description": {
+			"type": "string",
+			"default": "Step into a zone designed to soften tension and reset your rhythm. Warm mineral baths, a Finnish sauna, and serene spaces invite your body to release and your mind to quiet. Each element is thoughtfully crafted to ease stress, restore energy, and help you move from the day's pace into calm clarity."
+		},
+		"imageId": {
+			"type": "number",
+			"default": 0
+		},
+		"imageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"imageAlt": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "ai-zippy-child",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}

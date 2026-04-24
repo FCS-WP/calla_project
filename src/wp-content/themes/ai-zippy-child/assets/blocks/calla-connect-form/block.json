@@ -1,0 +1,87 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ai-zippy-child/calla-connect-form",
+  "version": "1.0.0",
+  "title": "Calla Connect Form",
+  "category": "calla-connect",
+  "icon": "email-alt",
+  "description": "Connect page contact form and side information panel.",
+  "keywords": [
+    "calla",
+    "connect",
+    "form",
+    "contact"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "eyebrow": {
+      "type": "string",
+      "default": "Get in touch"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Have any questions?"
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Send Message"
+    },
+    "successHeading": {
+      "type": "string",
+      "default": "Message sent!"
+    },
+    "successMessage": {
+      "type": "string",
+      "default": "Thank you for reaching out. We'll get back to you shortly."
+    },
+    "emailHeading": {
+      "type": "string",
+      "default": "Email us"
+    },
+    "email": {
+      "type": "string",
+      "default": "hello@thecallaproject.sg"
+    },
+    "socialHeading": {
+      "type": "string",
+      "default": "Follow along"
+    },
+    "social1Text": {
+      "type": "string",
+      "default": "The Calla Project"
+    },
+    "social1Url": {
+      "type": "string",
+      "default": "#"
+    },
+    "social2Text": {
+      "type": "string",
+      "default": "@thecallaproject.sg"
+    },
+    "social2Url": {
+      "type": "string",
+      "default": "#"
+    },
+    "visitHeading": {
+      "type": "string",
+      "default": "Visit us"
+    },
+    "visitText": {
+      "type": "string",
+      "default": "Monday - Friday<br>9:00 am - 9:00 pm"
+    }
+  },
+  "textdomain": "ai-zippy-child",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php"
+}

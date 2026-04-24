@@ -1,0 +1,38 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "ai-zippy-child/calla-firsttime-hero",
+	"version": "1.0.0",
+	"title": "Calla First Time Hero",
+	"category": "calla-first-time",
+	"icon": "heading",
+	"description": "First Time page hero with background image, title, and intro text.",
+	"keywords": ["calla", "first time", "hero", "welcome"],
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"]
+	},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "First Time?"
+		},
+		"description": {
+			"type": "string",
+			"default": "Welcome to The Calla Project. Here's everything you need to know before your first visit."
+		},
+		"backgroundImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"backgroundImageId": {
+			"type": "number",
+			"default": 0
+		}
+	},
+	"textdomain": "ai-zippy-child",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}

@@ -1,0 +1,46 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "ai-zippy-child/calla-about-review",
+	"version": "1.0.0",
+	"title": "Calla About Review",
+	"category": "calla-about",
+	"icon": "format-quote",
+	"description": "About Us review section with image and customer quote.",
+	"keywords": ["calla", "about", "review", "testimonial"],
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"]
+	},
+	"attributes": {
+		"imageId": {
+			"type": "number",
+			"default": 0
+		},
+		"imageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"imageAlt": {
+			"type": "string",
+			"default": ""
+		},
+		"stars": {
+			"type": "string",
+			"default": "★★★★★"
+		},
+		"quote": {
+			"type": "string",
+			"default": "\"To take 5 Star Reviews from Google\""
+		},
+		"author": {
+			"type": "string",
+			"default": "Reviewer Name · Google Review"
+		}
+	},
+	"textdomain": "ai-zippy-child",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ai-zippy-child/calla-about-story",
+  "version": "1.0.0",
+  "title": "Calla About Story",
+  "category": "calla-about",
+  "icon": "format-image",
+  "description": "About Us story section with image and narrative text.",
+  "keywords": [
+    "calla",
+    "about",
+    "story",
+    "image"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Our Story"
+    },
+    "body": {
+      "type": "string",
+      "default": "The Calla Project was born from years in competitive sports, where recovery is just as vital as training itself. We built a space where women can feel comfortable being themselves and reconnect through movement, care, and calm."
+    },
+    "imageId": {
+      "type": "number",
+      "default": 0
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "imageAlt": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "ai-zippy-child",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

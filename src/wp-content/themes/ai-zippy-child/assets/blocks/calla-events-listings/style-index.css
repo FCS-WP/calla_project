@@ -1,0 +1,219 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/wp-content/themes/ai-zippy-child/src/blocks/calla-events-listings/style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings {
+  background: #fdfaf8;
+  padding: 64px 64px 88px;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__inner {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__tagline {
+  margin-bottom: 44px;
+  padding: 28px 40px;
+  border: 1px solid rgba(200, 164, 138, 0.3);
+  border-radius: 6px;
+  text-align: center;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__tagline p {
+  margin: 0;
+  color: #2c2420;
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-size: clamp(17px, 2.2vw, 22px);
+  font-weight: 300;
+  line-height: 1.6;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__tagline p + p {
+  margin-top: 4px;
+  color: #7a6860;
+  font-size: clamp(14px, 1.6vw, 17px);
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 36px;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__tab {
+  padding: 8px 20px;
+  border: 1px solid rgba(200, 164, 138, 0.4);
+  border-radius: 40px;
+  background: transparent;
+  color: #7a6860;
+  cursor: pointer;
+  font-family: "Jost", "Arial", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__tab.is-active,
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__tab:hover {
+  background: #a07060;
+  border-color: #a07060;
+  color: #fdfaf8;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid rgba(200, 164, 138, 0.25);
+  border-radius: 8px;
+  background: #fdfaf8;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(200, 164, 138, 0.55);
+  box-shadow: 0 16px 40px rgba(160, 112, 96, 0.12);
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__image {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 4/3;
+  background: #ede0d8;
+  flex-shrink: 0;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__card:hover .calla-events-listings__image img {
+  transform: scale(1.04);
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__image-placeholder {
+  color: #7a6860;
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 4px 10px;
+  border-radius: 40px;
+  font-family: "Jost", "Arial", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__badge--upcoming {
+  background: #a07060;
+  color: #fdfaf8;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__badge--past {
+  background: rgba(122, 104, 96, 0.18);
+  color: #7a6860;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 20px 22px 24px;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__date {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+  color: #c8a48a;
+  font-size: 11.5px;
+  letter-spacing: 0.06em;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__date svg {
+  width: 13px;
+  height: 13px;
+  stroke: #c8a48a;
+  flex-shrink: 0;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__body h3 {
+  margin: 0 0 8px;
+  color: #2c2420 !important;
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-size: 20px !important;
+  font-weight: 400;
+  line-height: 1.25 !important;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__body p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  flex: 1;
+  margin: 0 0 18px;
+  color: #7a6860;
+  font-size: 13px;
+  line-height: 1.75;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #7a6860;
+  font-size: 12px;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__meta svg {
+  width: 13px;
+  height: 13px;
+  stroke: #7a6860;
+  flex-shrink: 0;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  color: #a07060;
+  font-size: 11.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: gap 0.2s ease;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__card:hover .calla-events-listings__arrow {
+  gap: 10px;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__arrow svg {
+  width: 14px;
+  height: 14px;
+  stroke: #a07060;
+}
+.wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__empty {
+  grid-column: 1/-1;
+  padding: 60px 20px;
+  color: #7a6860;
+  font-size: 14px;
+  text-align: center;
+}
+@media (max-width: 900px) {
+  .wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 620px) {
+  .wp-block-ai-zippy-child-calla-events-listings.calla-events-listings {
+    padding-inline: 20px;
+  }
+  .wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

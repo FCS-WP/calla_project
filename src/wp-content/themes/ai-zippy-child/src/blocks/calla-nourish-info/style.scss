@@ -1,0 +1,127 @@
+.wp-block-ai-zippy-child-calla-nourish-info.calla-nourish-info {
+	padding: clamp(2.4rem, 5vw, 3.5rem) clamp(1rem, 5vw, 4rem) clamp(3.4rem, 7vw, 5rem);
+	background: #fdfaf8;
+
+	.calla-nourish-info__inner {
+		max-width: 1060px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+		gap: clamp(1rem, 3vw, 2rem);
+		align-items: start;
+	}
+
+	.calla-nourish-info__writeup,
+	.calla-nourish-info__hours-card {
+		border: 1px solid rgba(200, 164, 138, 0.3);
+		border-radius: 6px;
+		padding: clamp(1.5rem, 4vw, 2.75rem) clamp(1rem, 3vw, 2.5rem);
+		background: #fdfaf8;
+	}
+
+	.calla-nourish-info__eyebrow {
+		display: block;
+		margin: 0 0 0.6rem;
+		font-size: 0.68rem;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+		color: #c8a48a;
+	}
+
+	.calla-nourish-info__heading {
+		margin: 0 0 1rem;
+		font-family: "Cormorant Garamond", "Times New Roman", serif;
+		font-size: clamp(1.8rem, 4.2vw, 2.4rem);
+		font-weight: 300;
+		line-height: 1.2;
+		color: #2c2420;
+	}
+
+	.calla-nourish-info__description {
+		margin: 0;
+		font-size: 0.92rem;
+		line-height: 1.9;
+		color: #7a6860;
+	}
+
+	.calla-nourish-info__hours-title,
+	.calla-nourish-info__menu-title {
+		margin: 0;
+		font-family: "Cormorant Garamond", "Times New Roman", serif;
+		font-size: 1.4rem;
+		font-weight: 400;
+		color: #2c2420;
+	}
+
+	.calla-nourish-info__hours-table {
+		margin: 1rem 0 0;
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+	.calla-nourish-info__hours-table td {
+		padding: 0.5rem 0;
+		font-size: 0.86rem;
+		line-height: 1.5;
+		color: #7a6860;
+		border-bottom: 1px solid rgba(200, 164, 138, 0.15);
+	}
+
+	.calla-nourish-info__hours-table tr:last-child td {
+		border-bottom: none;
+	}
+
+	.calla-nourish-info__hours-table td:first-child {
+		padding-right: 1rem;
+	}
+
+	.calla-nourish-info__hours-table td:last-child {
+		text-align: right;
+	}
+
+	.calla-nourish-info__divider {
+		height: 1px;
+		background: rgba(200, 164, 138, 0.2);
+		margin: 1.5rem 0;
+	}
+
+	.calla-nourish-info__menu-description {
+		margin: 0.55rem 0 1.1rem;
+		font-size: 0.86rem;
+		line-height: 1.8;
+		color: #7a6860;
+	}
+
+	.calla-nourish-info__button {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.55rem;
+		border: 1px solid rgba(44, 36, 32, 0.35);
+		border-radius: 999px;
+		padding: 0.65rem 1.3rem;
+		font-size: 0.73rem;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #2c2420;
+		transition: background 0.25s ease, color 0.25s ease;
+	}
+
+	.calla-nourish-info__button:hover {
+		background: #2c2420;
+		color: #fdfaf8;
+	}
+
+	.calla-nourish-info__button svg {
+		width: 14px;
+		height: 14px;
+	}
+
+	@media (max-width: 820px) {
+		padding-inline: 1rem;
+
+		.calla-nourish-info__inner {
+			grid-template-columns: 1fr;
+		}
+	}
+}

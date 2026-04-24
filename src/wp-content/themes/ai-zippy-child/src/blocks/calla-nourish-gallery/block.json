@@ -1,0 +1,112 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "ai-zippy-child/calla-nourish-gallery",
+	"version": "1.0.0",
+	"title": "Calla Nourish Gallery",
+	"category": "calla-nourish",
+	"icon": "format-gallery",
+	"description": "Nourish page gallery with repeatable image items.",
+	"keywords": ["calla", "nourish", "gallery", "images"],
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"]
+	},
+	"attributes": {
+		"images": {
+			"type": "array",
+			"default": [
+				{
+					"id": 0,
+					"url": "",
+					"alt": ""
+				},
+				{
+					"id": 0,
+					"url": "",
+					"alt": ""
+				},
+				{
+					"id": 0,
+					"url": "",
+					"alt": ""
+				},
+				{
+					"id": 0,
+					"url": "",
+					"alt": ""
+				},
+				{
+					"id": 0,
+					"url": "",
+					"alt": ""
+				}
+			]
+		},
+		"image1Id": {
+			"type": "number",
+			"default": 0
+		},
+		"image1Url": {
+			"type": "string",
+			"default": ""
+		},
+		"image1Alt": {
+			"type": "string",
+			"default": ""
+		},
+		"image2Id": {
+			"type": "number",
+			"default": 0
+		},
+		"image2Url": {
+			"type": "string",
+			"default": ""
+		},
+		"image2Alt": {
+			"type": "string",
+			"default": ""
+		},
+		"image3Id": {
+			"type": "number",
+			"default": 0
+		},
+		"image3Url": {
+			"type": "string",
+			"default": ""
+		},
+		"image3Alt": {
+			"type": "string",
+			"default": ""
+		},
+		"image4Id": {
+			"type": "number",
+			"default": 0
+		},
+		"image4Url": {
+			"type": "string",
+			"default": ""
+		},
+		"image4Alt": {
+			"type": "string",
+			"default": ""
+		},
+		"image5Id": {
+			"type": "number",
+			"default": 0
+		},
+		"image5Url": {
+			"type": "string",
+			"default": ""
+		},
+		"image5Alt": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "ai-zippy-child",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}

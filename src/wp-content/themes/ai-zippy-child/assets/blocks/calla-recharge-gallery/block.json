@@ -1,0 +1,60 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ai-zippy-child/calla-recharge-gallery",
+  "version": "1.0.0",
+  "title": "Calla Recharge Gallery",
+  "category": "calla-recharge",
+  "icon": "format-gallery",
+  "description": "Recharge page gallery with repeatable image items.",
+  "keywords": [
+    "calla",
+    "recharge",
+    "gallery",
+    "images"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "images": {
+      "type": "array",
+      "default": [
+        {
+          "id": 0,
+          "url": "",
+          "alt": ""
+        },
+        {
+          "id": 0,
+          "url": "",
+          "alt": ""
+        },
+        {
+          "id": 0,
+          "url": "",
+          "alt": ""
+        },
+        {
+          "id": 0,
+          "url": "",
+          "alt": ""
+        },
+        {
+          "id": 0,
+          "url": "",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "textdomain": "ai-zippy-child",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

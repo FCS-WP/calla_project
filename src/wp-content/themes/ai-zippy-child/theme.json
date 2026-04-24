@@ -2,7 +2,73 @@
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
 	"settings": {
-		"appearanceTools": true
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"slug": "basic-black",
+					"name": "Basic Black",
+					"color": "#111111"
+				},
+				{
+					"slug": "midnight-veil",
+					"name": "Midnight Veil",
+					"color": "#2A2F45"
+				},
+				{
+					"slug": "honey",
+					"name": "Honey",
+					"color": "#F2C14E"
+				},
+				{
+					"slug": "coral-ember",
+					"name": "Coral Ember",
+					"color": "#E76F51"
+				},
+				{
+					"slug": "lilac",
+					"name": "Lilac",
+					"color": "#B8A1E3"
+				},
+				{
+					"slug": "pastel-green",
+					"name": "Pastel Green",
+					"color": "#CDEAC0"
+				},
+				{
+					"slug": "vivid-peony",
+					"name": "Vivid Peony",
+					"color": "#F45B8D"
+				}
+			]
+		}
 	},
-	"styles": {}
+	"styles": {
+		"color": {
+			"text": "var:preset|color|basic-black"
+		},
+		"spacing": {
+			"blockGap": "0"
+		},
+		"elements": {
+			"heading": {
+				"color": {
+					"text": "var:preset|color|basic-black"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var:preset|color|lilac"
+				}
+			}
+		},
+		"blocks": {
+			"core/button": {
+				"color": {
+					"background": "var:preset|color|honey",
+					"text": "var:preset|color|basic-black"
+				}
+			}
+		}
+	}
 }

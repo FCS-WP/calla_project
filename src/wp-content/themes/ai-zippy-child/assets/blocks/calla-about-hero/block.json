@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ai-zippy-child/calla-about-hero",
+  "version": "1.0.0",
+  "title": "Calla About Hero",
+  "category": "calla-about",
+  "icon": "heading",
+  "description": "About Us hero section with breadcrumb and page title.",
+  "keywords": [
+    "calla",
+    "about",
+    "hero",
+    "story"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "breadcrumbHomeLabel": {
+      "type": "string",
+      "default": "Home"
+    },
+    "breadcrumbHomeUrl": {
+      "type": "string",
+      "default": "/"
+    },
+    "breadcrumbCurrentLabel": {
+      "type": "string",
+      "default": "Our Story"
+    },
+    "title": {
+      "type": "string",
+      "default": "Our Story"
+    }
+  },
+  "textdomain": "ai-zippy-child",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

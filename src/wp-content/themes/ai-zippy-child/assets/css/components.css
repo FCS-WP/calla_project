@@ -1,0 +1,59 @@
+/*
+ * Shared UI components for the Calla child theme.
+ */
+
+.calla-outline-button {
+	align-items: center;
+	background: rgba(255, 255, 255, 0.5);
+	border: 1.2px solid #2b2728;
+	border-radius: 999px;
+	color: #242022;
+	display: inline-flex;
+	font-size: clamp(0.95rem, 1.2vw, 1.45rem);
+	font-weight: 500;
+	gap: 0.92rem;
+	letter-spacing: 0.15em;
+	line-height: 1;
+	padding: 0.68em 1.55em;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: background-color 0.2s ease;
+}
+
+.calla-outline-button:hover,
+.calla-outline-button:focus-visible {
+	background: rgba(255, 255, 255, 0.9);
+}
+
+.calla-outline-button::after {
+	align-items: center;
+	content: "";
+	display: inline-flex;
+	flex: 0 0 auto;
+	height: 20px;
+	justify-content: center;
+	min-width: 20px;
+	background-color: currentColor;
+	-webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3 12h16M14 7l5 5-5 5' fill='none' stroke='%23000' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+	mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3 12h16M14 7l5 5-5 5' fill='none' stroke='%23000' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+	-webkit-mask-position: center;
+	mask-position: center;
+	-webkit-mask-size: contain;
+	mask-size: contain;
+	transform: translate3d(0, -0.01em, 0);
+	transition: transform 0.2s ease;
+	width: 20px;
+}
+
+.calla-outline-button:hover::after,
+.calla-outline-button:focus-visible::after {
+	transform: translate3d(0.16em, -0.01em, 0);
+}
+
+@media (max-width: 768px) {
+	.calla-outline-button {
+		letter-spacing: 0.08em;
+	}
+}

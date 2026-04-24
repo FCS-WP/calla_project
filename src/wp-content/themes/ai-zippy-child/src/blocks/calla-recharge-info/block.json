@@ -1,0 +1,83 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "ai-zippy-child/calla-recharge-info",
+	"version": "1.0.0",
+	"title": "Calla Recharge Info",
+	"category": "calla-recharge",
+	"icon": "money-alt",
+	"description": "Recharge page write-up with repeatable pricing rows and booking CTA.",
+	"keywords": ["calla", "recharge", "pricing", "wellness"],
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"]
+	},
+	"attributes": {
+		"eyebrow": {
+			"type": "string",
+			"default": "Rest. Reset. Recover."
+		},
+		"heading": {
+			"type": "string",
+			"default": "Your wellness sanctuary"
+		},
+		"description": {
+			"type": "string",
+			"default": "Our wellness space, featuring sauna, hot baths, cold plunge, bucket showers, and outdoor terrace - designed to help women rest, reset, and recover."
+		},
+		"description2": {
+			"type": "string",
+			"default": "Step into a zone designed to soften tension and restore your rhythm. Every element is thoughtfully crafted to ease stress, restore energy, and help you move from the day's pace into calm clarity. Recharge is your pause, your reset, your flow restored."
+		},
+		"pricingTitle": {
+			"type": "string",
+			"default": "Recharge Price / Rates"
+		},
+		"pricingRows": {
+			"type": "array",
+			"default": [
+				{
+					"label": "Single Session",
+					"description": "90-minute access - All facilities",
+					"amount": "$XX",
+					"suffix": "/ session"
+				},
+				{
+					"label": "Day Pass",
+					"description": "Full day access - All facilities",
+					"amount": "$XX",
+					"suffix": "/ day"
+				},
+				{
+					"label": "Monthly Membership",
+					"description": "Unlimited sessions - Priority booking",
+					"amount": "$XX",
+					"suffix": "/ mo"
+				},
+				{
+					"label": "10-Session Pack",
+					"description": "Valid 3 months - Shareable with a friend",
+					"amount": "$XX",
+					"suffix": "/ pack"
+				}
+			]
+		},
+		"pricingNote": {
+			"type": "string",
+			"default": "All prices inclusive of GST. Towel and locker included in every session. Book online or at the front desk."
+		},
+		"buttonText": {
+			"type": "string",
+			"default": "Book a Session"
+		},
+		"buttonUrl": {
+			"type": "string",
+			"default": "#"
+		}
+	},
+	"textdomain": "ai-zippy-child",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}

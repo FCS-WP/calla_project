@@ -1,0 +1,218 @@
+.wp-block-ai-zippy-child-calla-careers-listings.calla-careers-listings {
+	background: #fdfaf8;
+	padding: 64px 64px 88px;
+
+	.calla-careers-listings__inner {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) 240px;
+		gap: 16px;
+		max-width: 1060px;
+		margin: 0 auto;
+		align-items: start;
+	}
+
+	.calla-careers-listings__jobs {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		min-width: 0;
+	}
+
+	.calla-careers-listings__row {
+		display: grid;
+		grid-template-columns: 200px minmax(0, 1fr);
+		gap: 16px;
+		align-items: stretch;
+	}
+
+	.calla-careers-listings__image {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+		border-radius: 8px;
+		background: #ede0d8;
+		color: #7a6860;
+		font-family: "Cormorant Garamond", "Times New Roman", serif;
+		font-size: 12px;
+		letter-spacing: 0.06em;
+		aspect-ratio: 4 / 3;
+	}
+
+	.calla-careers-listings__image img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.calla-careers-listings__job-card {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 10px;
+		padding: 28px;
+		border: 1px solid rgba(200, 164, 138, 0.28);
+		border-radius: 8px;
+		background: #fdfaf8;
+		text-decoration: none;
+		transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+	}
+
+	.calla-careers-listings__job-card:hover {
+		box-shadow: 0 12px 36px rgba(160, 112, 96, 0.1);
+		border-color: rgba(200, 164, 138, 0.55);
+		transform: translateY(-3px);
+	}
+
+	.calla-careers-listings__job-tag {
+		color: #c8a48a;
+		font-size: 10px;
+		font-weight: 500;
+		letter-spacing: 0.16em;
+		text-transform: uppercase;
+	}
+
+	.calla-careers-listings__job-card h3 {
+		margin: 0;
+		color: #2c2420 !important;
+		font-family: "Cormorant Garamond", "Times New Roman", serif;
+		font-size: 22px !important;
+		font-weight: 400;
+		line-height: 1.2 !important;
+	}
+
+	.calla-careers-listings__job-card p {
+		margin: 0;
+		color: #7a6860;
+		font-size: 13.5px;
+		line-height: 1.8;
+	}
+
+	.calla-careers-listings__job-meta {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 16px;
+		margin-top: 4px;
+	}
+
+	.calla-careers-listings__job-meta-item {
+		display: inline-flex;
+		align-items: center;
+		gap: 5px;
+		color: #7a6860;
+		font-size: 12px;
+	}
+
+	.calla-careers-listings__job-meta-item svg {
+		width: 13px;
+		height: 13px;
+		color: #c8a48a;
+		flex-shrink: 0;
+	}
+
+	.calla-careers-listings__job-apply {
+		display: inline-flex;
+		align-items: center;
+		gap: 7px;
+		margin-top: 6px;
+		color: #a07060;
+		font-size: 11.5px;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		transition: gap 0.2s ease;
+	}
+
+	.calla-careers-listings__job-card:hover .calla-careers-listings__job-apply {
+		gap: 11px;
+	}
+
+	.calla-careers-listings__job-apply svg {
+		width: 13px;
+		height: 13px;
+		flex-shrink: 0;
+	}
+
+	.calla-careers-listings__contact-card {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		padding: 32px 28px;
+		border: 1px solid rgba(200, 164, 138, 0.28);
+		border-radius: 8px;
+		background: #f5ede8;
+	}
+
+	.calla-careers-listings__contact-eyebrow {
+		color: #c8a48a;
+		font-size: 10px;
+		font-weight: 500;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+	}
+
+	.calla-careers-listings__contact-heading {
+		margin: 8px 0 0;
+		color: #2c2420 !important;
+		font-family: "Cormorant Garamond", "Times New Roman", serif;
+		font-size: 20px !important;
+		font-weight: 300;
+		line-height: 1.3 !important;
+	}
+
+	.calla-careers-listings__contact-divider {
+		height: 1px;
+		background: rgba(200, 164, 138, 0.25);
+	}
+
+	.calla-careers-listings__contact-block {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+	}
+
+	.calla-careers-listings__contact-block label {
+		color: #c8a48a;
+		font-size: 10px;
+		font-weight: 500;
+		letter-spacing: 0.16em;
+		text-transform: uppercase;
+	}
+
+	.calla-careers-listings__contact-block p,
+	.calla-careers-listings__contact-block a {
+		margin: 0;
+		color: #7a6860;
+		font-size: 13.5px;
+		line-height: 1.7;
+		text-decoration: none;
+	}
+
+	.calla-careers-listings__contact-block a:hover {
+		color: #a07060;
+	}
+
+	.calla-careers-listings__empty {
+		grid-column: 1 / -1;
+		padding: 60px 20px;
+		color: #7a6860;
+		text-align: center;
+		font-family: "Cormorant Garamond", "Times New Roman", serif;
+		font-size: 18px;
+		font-style: italic;
+	}
+
+	@media (max-width: 900px) {
+		.calla-careers-listings__inner {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	@media (max-width: 600px) {
+		padding-inline: 20px;
+
+		.calla-careers-listings__row {
+			grid-template-columns: 1fr;
+		}
+	}
+}

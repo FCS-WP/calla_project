@@ -43,7 +43,7 @@ class ViteAssets
      */
     public static function addModuleType(string $tag, string $handle): string
     {
-        if (str_starts_with($handle, 'ai-zippy-')) {
+        if (str_starts_with($handle, 'ai-zippy-') && !str_starts_with($handle, 'ai-zippy-child-')) {
             return str_replace(' src=', ' type="module" src=', $tag);
         }
         return $tag;

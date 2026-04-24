@@ -1,0 +1,86 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "ai-zippy-child/calla-nourish-info",
+	"version": "1.0.0",
+	"title": "Calla Nourish Info",
+	"category": "calla-nourish",
+	"icon": "clipboard",
+	"description": "Nourish write-up, opening hours, and menu download section.",
+	"keywords": ["calla", "nourish", "hours", "menu"],
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"]
+	},
+	"attributes": {
+		"eyebrow": {
+			"type": "string",
+			"default": "Nourish Yourself Here"
+		},
+		"heading": {
+			"type": "string",
+			"default": "A cafe with women in mind"
+		},
+		"description": {
+			"type": "string",
+			"default": "A cafe with a menu thoughtfully created with women in mind. As women move through different stages of life, their nutritional needs change. Our menu reflects that, while still allowing room for enjoyment. We believe in balance - supporting health without removing the pleasure of good food."
+		},
+		"hoursTitle": {
+			"type": "string",
+			"default": "Opening Hours"
+		},
+		"hoursDay1": {
+			"type": "string",
+			"default": "Monday - Friday"
+		},
+		"hoursTime1": {
+			"type": "string",
+			"default": "9:00 am - 9:00 pm"
+		},
+		"hoursDay2": {
+			"type": "string",
+			"default": "Saturday"
+		},
+		"hoursTime2": {
+			"type": "string",
+			"default": "9:00 am - 6:00 pm"
+		},
+		"hoursDay3": {
+			"type": "string",
+			"default": "Sunday"
+		},
+		"hoursTime3": {
+			"type": "string",
+			"default": "Closed"
+		},
+		"hoursDay4": {
+			"type": "string",
+			"default": "Public Holidays"
+		},
+		"hoursTime4": {
+			"type": "string",
+			"default": "Closed"
+		},
+		"menuTitle": {
+			"type": "string",
+			"default": "Our Menu"
+		},
+		"menuDescription": {
+			"type": "string",
+			"default": "Download our full menu to explore our wholesome breakfast bowls, herbal lattes, and vibrant dishes."
+		},
+		"menuButtonText": {
+			"type": "string",
+			"default": "Download Menu PDF"
+		},
+		"menuButtonUrl": {
+			"type": "string",
+			"default": "#"
+		}
+	},
+	"textdomain": "ai-zippy-child",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}

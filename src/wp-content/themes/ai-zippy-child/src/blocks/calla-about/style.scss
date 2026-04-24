@@ -1,0 +1,106 @@
+.wp-block-ai-zippy-child-calla-about.calla-about {
+	padding: 0 0 clamp(2rem, 5vw, 4rem);
+	background:
+		radial-gradient(circle at 14% 38%, rgba(231, 227, 231, 0.75), transparent 42%),
+		radial-gradient(circle at 78% 74%, rgba(233, 231, 235, 0.7), transparent 44%),
+		#f6f6f6;
+
+	.calla-about__inner {
+		width: 100%;
+		box-sizing: border-box;
+		max-width: 1700px;
+		margin: 0 auto;
+		padding: clamp(2.2rem, 6vw, 7rem) clamp(1.25rem, 6vw, 12rem) clamp(2rem, 5vw, 4.2rem);
+		display: grid;
+		grid-template-columns: minmax(320px, 0.95fr) minmax(340px, 1.05fr);
+		gap: clamp(1.2rem, 3vw, 4rem);
+		align-items: center;
+	}
+
+	.calla-about__title {
+		margin: 0;
+		font-family: "Cormorant Garamond", "Times New Roman", serif;
+		font-weight: 500;
+		font-size: clamp(2.1rem, 5vw, 6rem);
+		line-height: 1;
+		letter-spacing: -0.01em;
+		color: #1e1a1c;
+	}
+
+	.calla-about__description {
+		margin: clamp(0.75rem, 1.6vw, 1.4rem) 0 0;
+		font-size: clamp(1rem, 1.4vw, 1.95rem);
+		line-height: 1.62;
+		color: #2f2729;
+		max-width: 53ch;
+	}
+
+	.calla-about__collage {
+		display: block;
+		width: 100%;
+		max-width: 760px;
+		overflow: hidden;
+		border-radius: 22px;
+		box-shadow: 0 14px 34px rgba(67, 67, 78, 0.14);
+		justify-self: end;
+	}
+
+	.calla-about__image {
+		display: block;
+		width: 100%;
+		aspect-ratio: 1.55 / 1;
+		object-fit: cover;
+	}
+
+	.calla-about__image--placeholder {
+		background:
+			radial-gradient(circle at 46% 20%, rgba(255, 255, 255, 0.55), transparent 34%),
+			linear-gradient(180deg, #d8edf6 0%, #9bc6d2 52%, #8caf9c 100%);
+	}
+
+	.calla-about__actions {
+		margin-top: clamp(1rem, 2.2vw, 2.2rem);
+		text-align: center;
+	}
+
+	@media (max-width: 1280px) {
+		.calla-about__inner {
+			padding-inline: clamp(1.25rem, 4vw, 4rem);
+		}
+	}
+
+	@media (max-width: 1024px) {
+		.calla-about__inner {
+			grid-template-columns: 1fr;
+		}
+
+		.calla-about__content {
+			text-align: center;
+		}
+
+		.calla-about__description {
+			margin-inline: auto;
+		}
+
+		.calla-about__collage {
+			justify-self: center;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.calla-about__inner {
+			padding-inline: 1rem;
+		}
+
+		.calla-about__collage {
+			max-width: 640px;
+			margin-inline: auto;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.calla-about__collage {
+			max-width: 100%;
+		}
+	}
+}

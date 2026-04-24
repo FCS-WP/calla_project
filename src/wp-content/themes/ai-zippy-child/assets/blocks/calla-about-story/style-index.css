@@ -1,0 +1,66 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/wp-content/themes/ai-zippy-child/src/blocks/calla-about-story/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-ai-zippy-child-calla-about-story.calla-about-story {
+  background: #fdfaf8;
+  color: #2c2420;
+  margin: 0;
+  padding: clamp(3rem, 6vw, 5.5rem) clamp(1rem, 5vw, 4rem);
+}
+.wp-block-ai-zippy-child-calla-about-story.calla-about-story .calla-about-story__inner {
+  align-items: center;
+  display: grid;
+  gap: clamp(1.5rem, 4vw, 5rem);
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  max-width: 1060px;
+}
+.wp-block-ai-zippy-child-calla-about-story.calla-about-story .calla-about-story__media {
+  aspect-ratio: 3/4;
+  background: #ede0d8;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.wp-block-ai-zippy-child-calla-about-story.calla-about-story .calla-about-story__media img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.wp-block-ai-zippy-child-calla-about-story.calla-about-story .calla-about-story__media span {
+  color: #7a6860;
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.wp-block-ai-zippy-child-calla-about-story.calla-about-story .calla-about-story__heading {
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+  margin: 0 0 0.75rem;
+  text-transform: uppercase;
+}
+.wp-block-ai-zippy-child-calla-about-story.calla-about-story .calla-about-story__body {
+  color: #7a6860;
+  font-size: 0.95rem;
+  line-height: 1.9;
+  margin: 0;
+}
+@media (max-width: 980px) {
+  .wp-block-ai-zippy-child-calla-about-story.calla-about-story .calla-about-story__inner {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 700px) {
+  .wp-block-ai-zippy-child-calla-about-story.calla-about-story {
+    padding-inline: 1rem;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

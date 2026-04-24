@@ -1,0 +1,41 @@
+.wp-block-ai-zippy-child-calla-faqs-hero.calla-faqs-hero {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	background: #f5ede8;
+	min-height: 320px;
+
+	.calla-faqs-hero__bg {
+		position: absolute;
+		inset: 0;
+		background-position: center;
+		background-size: cover;
+		opacity: 0.22;
+	}
+
+	.calla-faqs-hero__content {
+		position: relative;
+		z-index: 1;
+		padding: 80px 24px 72px;
+		text-align: center;
+	}
+
+	.calla-faqs-hero__title {
+		margin: 0;
+		color: #2c2420;
+		font-family: "Cormorant Garamond", "Times New Roman", serif;
+		font-size: clamp(44px, 6vw, 72px);
+		font-weight: 300;
+		line-height: 1.1;
+	}
+
+	@media (max-width: 640px) {
+		min-height: 240px;
+
+		.calla-faqs-hero__content {
+			padding-block: 64px 56px;
+		}
+	}
+}
