@@ -1,0 +1,232 @@
+.footer {
+  background: #e8dcdc;
+  color: #1f1f1f;
+  font-family: "Montserrat", "Arial", sans-serif;
+  margin: 0;
+  min-height: 550px;
+  overflow: hidden;
+  padding: 60px 0 30px;
+  position: relative;
+}
+
+.footer::before {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 40% 60% 45% 55% / 55% 35% 65% 45%;
+  bottom: -20px;
+  content: "";
+  filter: blur(1px);
+  height: 380px;
+  left: -40px;
+  position: absolute;
+  width: 380px;
+}
+
+.footer::after {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 48% 52% 42% 58% / 58% 42% 58% 42%;
+  bottom: 10px;
+  content: "";
+  height: 260px;
+  left: 90px;
+  position: absolute;
+  transform: rotate(8deg);
+  width: 220px;
+}
+
+.footer-grid {
+  align-items: start;
+  box-sizing: border-box;
+  display: grid !important;
+  gap: 70px;
+  grid-template-columns: 1.35fr 0.9fr 1fr;
+  margin: 0 auto;
+  max-width: 1320px;
+  padding: 0 clamp(1rem, 2.3vw, 2rem);
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+
+.footer .brand,
+.footer .links,
+.footer .right-col,
+.footer .social-block,
+.footer .social-list,
+.footer .social-item,
+.footer .hours,
+.footer .wp-block-navigation,
+.footer .wp-block-navigation__container {
+  margin-block: 0;
+}
+
+.brand-title {
+  color: #1f1f1f !important;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 24px !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 1.2 !important;
+  margin: 0 0 28px;
+  text-transform: uppercase;
+}
+
+.brand-text {
+  color: #1f1f1f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 0;
+  max-width: 330px;
+}
+
+.script-title {
+  color: #1f1f1f !important;
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-size: 36px !important;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1 !important;
+  margin: 0 0 26px;
+  text-transform: none;
+}
+
+.footer-links,
+.footer-links .wp-block-navigation__container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links .wp-block-navigation-item__content,
+.social-item a,
+.social-item span {
+  color: #1f1f1f !important;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.35;
+  padding: 0;
+  text-decoration: none;
+}
+
+footer.wp-block-group.footer .wp-block-navigation a,
+footer.wp-block-group.footer .wp-block-navigation-item__content,
+footer.wp-block-group.footer .wp-block-navigation-item__label,
+footer.wp-block-group.footer .social-item a {
+  color: #1f1f1f !important;
+}
+
+.social-block {
+  margin-bottom: 38px !important;
+}
+
+.social-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.social-item {
+  align-items: center;
+  display: flex;
+  gap: 14px;
+}
+
+.social-item p {
+  margin: 0;
+}
+
+.icon-circle {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 50%;
+  display: inline-flex;
+  flex-shrink: 0;
+  height: 26px;
+  justify-content: center;
+  margin: 0;
+  width: 26px;
+}
+
+.icon-circle img {
+  display: block;
+  filter: brightness(0) invert(1);
+  height: 13px;
+  object-fit: contain;
+  width: 13px;
+}
+
+.hours p {
+  color: #1f1f1f;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.9;
+  margin: 0;
+}
+
+.divider {
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.45);
+  box-sizing: border-box;
+  height: 1px;
+  margin: 70px auto 0;
+  max-width: 1320px;
+  padding: 0 clamp(1rem, 2.3vw, 2rem);
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+
+.copyright {
+  box-sizing: border-box;
+  color: #1f1f1f;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  line-height: 1.3;
+  margin: 40px auto 0;
+  max-width: 1320px;
+  padding: 0 clamp(1rem, 2.3vw, 2rem);
+  position: relative;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+}
+
+.footer a:hover,
+.footer a:focus-visible {
+  color: #1f1f1f !important;
+  opacity: 0.72;
+  outline: none;
+}
+
+@media (max-width: 992px) {
+  .footer {
+    min-height: auto;
+    padding: 40px 0 24px;
+  }
+
+  .footer-grid {
+    gap: 40px;
+    grid-template-columns: 1fr;
+    padding-inline: 16px;
+  }
+
+  .script-title {
+    font-size: 30px !important;
+  }
+
+  .brand-text {
+    max-width: 100%;
+  }
+
+  .divider,
+  .copyright {
+    padding-inline: 16px;
+  }
+}

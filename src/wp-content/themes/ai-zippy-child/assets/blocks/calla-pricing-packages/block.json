@@ -1,0 +1,94 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ai-zippy-child/calla-pricing-packages",
+  "version": "1.0.0",
+  "title": "Calla Pricing Packages",
+  "category": "calla-pricing",
+  "icon": "money-alt",
+  "description": "Pricing intro and repeatable package cards.",
+  "keywords": [
+    "calla",
+    "pricing",
+    "packages",
+    "membership"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "introLine1": {
+      "type": "string",
+      "default": "Find your flow, your way."
+    },
+    "introLine2": {
+      "type": "string",
+      "default": "Choose the option that works best for you."
+    },
+    "packages": {
+      "type": "array",
+      "default": [
+        {
+          "eyebrow": "Drop In",
+          "badge": "",
+          "name": "Pricing Package 1",
+          "tagline": "Perfect for first-timers or occasional visits.",
+          "pricePrefix": "$",
+          "priceValue": "XX",
+          "pricePeriod": "per session",
+          "featuresText": "Full facility access\nTowel & locker included\n90-minute session\nCafe discount 10%",
+          "buttonText": "Book Now",
+          "buttonUrl": "#",
+          "isFeatured": false
+        },
+        {
+          "eyebrow": "Membership",
+          "badge": "Most Popular",
+          "name": "Pricing Package 2",
+          "tagline": "For those who make recovery a ritual.",
+          "pricePrefix": "$",
+          "priceValue": "XX",
+          "pricePeriod": "per month",
+          "featuresText": "Unlimited sessions\nPriority booking\nTowel & locker included\nCafe discount 15%\n1 guest pass / month",
+          "buttonText": "Get Started",
+          "buttonUrl": "#",
+          "isFeatured": true
+        },
+        {
+          "eyebrow": "Pack",
+          "badge": "",
+          "name": "Pricing Package 3",
+          "tagline": "Flexible sessions to use at your own pace.",
+          "pricePrefix": "$",
+          "priceValue": "XX",
+          "pricePeriod": "10-session pack - valid 3 months",
+          "featuresText": "10 sessions to use freely\nShareable with a friend\nTowel & locker included\nCafe discount 10%",
+          "buttonText": "Buy Pack",
+          "buttonUrl": "#",
+          "isFeatured": false
+        }
+      ]
+    },
+    "noteText": {
+      "type": "string",
+      "default": "All prices inclusive of GST. Questions?"
+    },
+    "noteLinkText": {
+      "type": "string",
+      "default": "Get in touch"
+    },
+    "noteLinkUrl": {
+      "type": "string",
+      "default": "#"
+    }
+  },
+  "textdomain": "ai-zippy-child",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

@@ -1,0 +1,122 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ai-zippy-child/calla-firsttime-guide",
+  "version": "1.0.0",
+  "title": "Calla First Time Guide",
+  "category": "calla-first-time",
+  "icon": "welcome-learn-more",
+  "description": "First Time page content grid, steps, and CTA buttons.",
+  "keywords": [
+    "calla",
+    "first time",
+    "guide",
+    "steps"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "shortEyebrow": {
+      "type": "string",
+      "default": "Welcome"
+    },
+    "shortHeading": {
+      "type": "string",
+      "default": "A space made for you"
+    },
+    "shortDescription": {
+      "type": "string",
+      "default": "Whether you're coming to nourish, recharge, or simply pause - we've designed every detail to make your first visit feel seamless, warm, and exactly right."
+    },
+    "imageId": {
+      "type": "number",
+      "default": 0
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "imageAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "imagePlaceholder": {
+      "type": "string",
+      "default": "Image"
+    },
+    "guideEyebrow": {
+      "type": "string",
+      "default": "What to expect"
+    },
+    "guideHeading": {
+      "type": "string",
+      "default": "Your first visit, step by step"
+    },
+    "step1Title": {
+      "type": "string",
+      "default": "Book your session"
+    },
+    "step1Text": {
+      "type": "string",
+      "default": "Reserve your spot online or via WhatsApp. Choose between Nourish, Recharge, or both - and let us know if you have any questions before you arrive."
+    },
+    "step2Title": {
+      "type": "string",
+      "default": "Arrive & check in"
+    },
+    "step2Text": {
+      "type": "string",
+      "default": "Head to the front desk when you arrive. Our team will welcome you, walk you through the space, and get you settled in."
+    },
+    "step3Title": {
+      "type": "string",
+      "default": "What to bring"
+    },
+    "step3Text": {
+      "type": "string",
+      "default": "Come as you are. Towels and lockers are included with every session. You're welcome to bring a change of clothes and your favourite playlist."
+    },
+    "step4Title": {
+      "type": "string",
+      "default": "Enjoy the space"
+    },
+    "step4Text": {
+      "type": "string",
+      "default": "Take your time. Move between our cafe, sauna, mineral baths, and relaxation areas at your own pace. This is your time."
+    },
+    "step5Title": {
+      "type": "string",
+      "default": "Before you leave"
+    },
+    "step5Text": {
+      "type": "string",
+      "default": "Speak to our team about memberships, upcoming events, or anything else you'd like to know. We'd love to see you again."
+    },
+    "primaryButtonText": {
+      "type": "string",
+      "default": "Book Now"
+    },
+    "primaryButtonUrl": {
+      "type": "string",
+      "default": "https://wa.me/6500000000?text=Hi%2C+I'd+like+to+book+my+first+visit+at+The+Calla+Project!"
+    },
+    "secondaryButtonText": {
+      "type": "string",
+      "default": "FAQs"
+    },
+    "secondaryButtonUrl": {
+      "type": "string",
+      "default": "faq.html"
+    }
+  },
+  "textdomain": "ai-zippy-child",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

@@ -1,0 +1,30 @@
+/*
+ * Reset default spacing from block layout wrappers.
+ * Goal: page spacing is controlled by custom block CSS only.
+ */
+
+main.wp-block-group,
+main.wp-block-group.has-global-padding,
+main.wp-block-group.is-layout-constrained {
+	padding: 0 !important;
+	margin: 0;
+}
+
+main .wp-block-post-content,
+main .wp-block-post-content.is-layout-constrained,
+main .wp-block-post-content.has-global-padding {
+	padding: 0 !important;
+	margin: 0;
+	--wp--style--block-gap: 0;
+}
+
+main .wp-block-post-content > * {
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+main .wp-block-post-content > .wp-block-group,
+main .wp-block-post-content > .wp-block-cover,
+main .wp-block-post-content > .wp-block-columns {
+	padding-inline: 0 !important;
+}

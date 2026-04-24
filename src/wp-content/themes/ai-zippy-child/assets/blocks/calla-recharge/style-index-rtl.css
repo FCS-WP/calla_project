@@ -1,0 +1,80 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/wp-content/themes/ai-zippy-child/src/blocks/calla-recharge/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-ai-zippy-child-calla-recharge.calla-recharge {
+  padding: 0;
+  background: #f7f6f7;
+}
+.wp-block-ai-zippy-child-calla-recharge.calla-recharge .calla-recharge__inner {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: clamp(1.8rem, 5vw, 5.2rem) clamp(1.25rem, 6vw, 12rem) clamp(2.2rem, 8vw, 9rem);
+  display: grid;
+  grid-template-columns: minmax(320px, 1fr) minmax(260px, 590px);
+  gap: clamp(1.2rem, 3vw, 4.2rem);
+  align-items: center;
+}
+.wp-block-ai-zippy-child-calla-recharge.calla-recharge .calla-recharge__title {
+  margin: 0;
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-weight: 500;
+  font-size: clamp(2rem, 4.8vw, 5.2rem);
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: #52477d;
+}
+.wp-block-ai-zippy-child-calla-recharge.calla-recharge .calla-recharge__description {
+  margin: clamp(0.6rem, 1.2vw, 1.2rem) 0 0;
+  font-size: clamp(0.98rem, 1.35vw, 1.95rem);
+  line-height: 1.68;
+  color: #2d2525;
+  max-width: 55ch;
+}
+.wp-block-ai-zippy-child-calla-recharge.calla-recharge .calla-recharge__media-wrap {
+  display: flex;
+  justify-content: center;
+}
+.wp-block-ai-zippy-child-calla-recharge.calla-recharge .calla-recharge__media {
+  display: block;
+  width: min(100%, 560px);
+  aspect-ratio: 1.55/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 999px;
+  box-shadow: 0 22px 56px rgba(70, 46, 31, 0.22);
+}
+.wp-block-ai-zippy-child-calla-recharge.calla-recharge .calla-recharge__media--placeholder {
+  background: radial-gradient(circle at 25% 30%, rgba(255, 255, 255, 0.22), transparent 38%), linear-gradient(-122deg, #7a4d34 0%, #9a6a51 52%, #b88a71 100%);
+}
+@media (max-width: 1280px) {
+  .wp-block-ai-zippy-child-calla-recharge.calla-recharge .calla-recharge__inner {
+    padding-inline: clamp(1.25rem, 4vw, 4rem);
+    grid-template-columns: 1fr minmax(260px, 440px);
+  }
+}
+@media (max-width: 1024px) {
+  .wp-block-ai-zippy-child-calla-recharge.calla-recharge .calla-recharge__inner {
+    grid-template-columns: 1fr;
+  }
+  .wp-block-ai-zippy-child-calla-recharge.calla-recharge .calla-recharge__content {
+    text-align: center;
+  }
+  .wp-block-ai-zippy-child-calla-recharge.calla-recharge .calla-recharge__description {
+    margin-inline: auto;
+  }
+}
+@media (max-width: 768px) {
+  .wp-block-ai-zippy-child-calla-recharge.calla-recharge .calla-recharge__inner {
+    padding-inline: 1rem;
+  }
+  .wp-block-ai-zippy-child-calla-recharge.calla-recharge .calla-recharge__media {
+    width: min(100%, 420px);
+  }
+}
+@media (max-width: 480px) {
+  .wp-block-ai-zippy-child-calla-recharge.calla-recharge .calla-recharge__media {
+    border-radius: 56px;
+  }
+}

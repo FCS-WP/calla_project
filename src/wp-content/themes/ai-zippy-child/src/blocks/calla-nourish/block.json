@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "ai-zippy-child/calla-nourish",
+	"version": "1.0.0",
+	"title": "Calla Nourish",
+	"category": "calla-home",
+	"icon": "carrot",
+	"description": "Nourish section with image and supporting copy.",
+	"keywords": ["calla", "nourish", "wellness", "section"],
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"]
+	},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Nourish"
+		},
+		"description": {
+			"type": "string",
+			"default": "Start your visit with energy and calm intertwined. Our bright cafe space offers wholesome breakfast bowls, herbal lattes, and fresh, vibrant dishes designed to refuel both body and mind. Soft light, quiet rhythms, and carefully curated flavors create a space to pause, savor, and prepare for the flow ahead."
+		},
+		"imageId": {
+			"type": "number",
+			"default": 0
+		},
+		"imageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"imageAlt": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "ai-zippy-child",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}

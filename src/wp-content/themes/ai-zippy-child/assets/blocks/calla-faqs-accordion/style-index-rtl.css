@@ -1,0 +1,155 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/wp-content/themes/ai-zippy-child/src/blocks/calla-faqs-accordion/style.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion {
+  background: #fdfaf8;
+  padding: 64px 64px 88px;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__intro,
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__item,
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__cta {
+  border: 1px solid rgba(200, 164, 138, 0.28);
+  border-radius: 8px;
+  background: #fdfaf8;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__intro {
+  margin-bottom: 32px;
+  padding: 28px 36px;
+  text-align: center;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__intro h2 {
+  margin: 0 0 6px;
+  color: #2c2420 !important;
+  font-family: "Jost", sans-serif;
+  font-size: 15px !important;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__intro p {
+  margin: 0;
+  color: #7a6860;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__item {
+  overflow: hidden;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 16px;
+  padding: 18px 24px;
+  border: 0;
+  background: #fdfaf8;
+  color: #2c2420;
+  cursor: pointer;
+  text-align: right;
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: background 0.2s ease;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__question:hover,
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__item.is-open .calla-faqs-accordion__question {
+  background: #f5ede8;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__question span {
+  flex: 1;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__chevron {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  color: #c8a48a;
+  transition: transform 0.3s ease;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__item.is-open .calla-faqs-accordion__chevron {
+  transform: rotate(-180deg);
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__answer {
+  padding: 0 24px 20px;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__answer[hidden] {
+  display: none;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__answer-inner {
+  padding-top: 12px;
+  border-top: 1px solid rgba(200, 164, 138, 0.18);
+  color: #7a6860;
+  font-size: 14px;
+  line-height: 1.85;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__answer-inner > *:first-child {
+  margin-top: 0;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__answer-inner > *:last-child {
+  margin-bottom: 0;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__answer-inner a {
+  color: #a07060;
+  text-decoration: none;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__answer-inner a:hover {
+  text-decoration: underline;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__cta {
+  margin-top: 40px;
+  padding: 32px 24px;
+  background: #f5ede8;
+  text-align: center;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__cta-copy {
+  margin: 0 0 16px;
+  color: #7a6860;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__cta-copy strong {
+  color: #2c2420;
+  font-weight: 600;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 26px;
+  border: 1px solid rgba(44, 36, 32, 0.3);
+  border-radius: 40px;
+  background: transparent;
+  color: #2c2420;
+  font-family: "Jost", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__btn:hover {
+  background: #2c2420;
+  color: #fdfaf8;
+}
+.wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__btn svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+@media (max-width: 640px) {
+  .wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion {
+    padding-inline: 20px;
+  }
+  .wp-block-ai-zippy-child-calla-faqs-accordion.calla-faqs-accordion .calla-faqs-accordion__intro {
+    padding-inline: 20px;
+  }
+}

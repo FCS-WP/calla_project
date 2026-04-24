@@ -1,0 +1,24 @@
+/* Frontend-only shared heading scale. Keep editor typography controlled by theme.json/core. */
+h1 {
+  font-size: clamp(2.25rem, 6vw, 4rem) !important;
+}
+
+h2 {
+  font-size: clamp(1.9rem, 4.5vw, 3rem) !important;
+}
+
+h3 {
+  font-size: clamp(1.6rem, 3.6vw, 2.35rem) !important;
+}
+
+h4 {
+  font-size: clamp(1.35rem, 2.8vw, 1.9rem) !important;
+}
+
+h5 {
+  font-size: clamp(1.15rem, 2.2vw, 1.45rem) !important;
+}
+
+h6 {
+  font-size: clamp(1rem, 1.8vw, 1.2rem) !important;
+}

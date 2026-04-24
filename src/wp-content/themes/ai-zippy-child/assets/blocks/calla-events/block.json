@@ -1,0 +1,114 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ai-zippy-child/calla-events",
+  "version": "1.0.0",
+  "title": "Calla Events",
+  "category": "calla-home",
+  "icon": "calendar-alt",
+  "description": "Events section with feature image and stacked event cards.",
+  "keywords": [
+    "calla",
+    "events",
+    "calendar",
+    "wellness"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Join Our Events"
+    },
+    "featureImageId": {
+      "type": "number",
+      "default": 0
+    },
+    "featureImageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "featureImageAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "event1Title": {
+      "type": "string",
+      "default": "Event Name"
+    },
+    "event1Body": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore"
+    },
+    "event1Schedule": {
+      "type": "string",
+      "default": "1 January 2026, 6:00 pm - 8:00 pm"
+    },
+    "event1Host": {
+      "type": "string",
+      "default": "Instructor: The Calla Project"
+    },
+    "event2Title": {
+      "type": "string",
+      "default": "Event Name"
+    },
+    "event2Body": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore"
+    },
+    "event2Schedule": {
+      "type": "string",
+      "default": "1 January 2026, 6:00 pm - 8:00 pm"
+    },
+    "event2Host": {
+      "type": "string",
+      "default": "Instructor: The Calla Project"
+    },
+    "event3Title": {
+      "type": "string",
+      "default": "Event Name"
+    },
+    "event3Body": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore"
+    },
+    "event3Schedule": {
+      "type": "string",
+      "default": "1 January 2026, 6:00 pm - 8:00 pm"
+    },
+    "event3Host": {
+      "type": "string",
+      "default": "Instructor: The Calla Project"
+    },
+    "event1Meta": {
+      "type": "string",
+      "default": ""
+    },
+    "event2Meta": {
+      "type": "string",
+      "default": ""
+    },
+    "event3Meta": {
+      "type": "string",
+      "default": ""
+    },
+    "moreText": {
+      "type": "string",
+      "default": "See More"
+    },
+    "moreUrl": {
+      "type": "string",
+      "default": "#"
+    }
+  },
+  "textdomain": "ai-zippy-child",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

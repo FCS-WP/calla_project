@@ -1,0 +1,92 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/wp-content/themes/ai-zippy-child/src/blocks/calla-hero/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-ai-zippy-child-calla-hero.calla-hero {
+  padding: 0;
+  margin-block: 0;
+}
+.wp-block-ai-zippy-child-calla-hero.calla-hero .calla-hero__inner {
+  width: 100%;
+}
+.wp-block-ai-zippy-child-calla-hero.calla-hero .calla-hero__media-wrap {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+.wp-block-ai-zippy-child-calla-hero.calla-hero .calla-hero__media-wrap::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.wp-block-ai-zippy-child-calla-hero.calla-hero .calla-hero__media {
+  display: block;
+  width: 100%;
+  min-height: clamp(320px, 43vw, 700px);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.wp-block-ai-zippy-child-calla-hero.calla-hero .calla-hero__media--placeholder {
+  background: radial-gradient(circle at 30% 18%, rgba(255, 255, 255, 0.5), transparent 30%), linear-gradient(-122deg, #d9b7aa 0%, #d5bab0 45%, #c7a79b 100%);
+}
+.wp-block-ai-zippy-child-calla-hero.calla-hero .calla-hero__overlay {
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: clamp(1.25rem, 3vw, 3rem);
+  text-align: center;
+}
+.wp-block-ai-zippy-child-calla-hero.calla-hero .calla-hero__eyebrow:empty,
+.wp-block-ai-zippy-child-calla-hero.calla-hero .calla-hero__description:empty {
+  display: none;
+}
+.wp-block-ai-zippy-child-calla-hero.calla-hero .calla-hero__eyebrow {
+  margin: 0 0 0.8rem;
+  font-size: clamp(0.8rem, 1vw, 1rem);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #6f5951;
+}
+.wp-block-ai-zippy-child-calla-hero.calla-hero .calla-hero__title {
+  margin: 0;
+  max-width: min(94vw, 1160px);
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-weight: 500;
+  font-size: clamp(2.1rem, 5.1vw, 7rem);
+  line-height: 1.08;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+  color: #1f1c1d;
+}
+.wp-block-ai-zippy-child-calla-hero.calla-hero .calla-hero__description {
+  margin: 1rem 0 0;
+  max-width: 62ch;
+  font-size: clamp(0.95rem, 1.2vw, 1.35rem);
+  line-height: 1.75;
+  color: #3f3838;
+}
+.wp-block-ai-zippy-child-calla-hero.calla-hero .calla-hero__actions {
+  margin-top: clamp(1rem, 1.8vw, 2rem);
+  display: inline-flex;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  .wp-block-ai-zippy-child-calla-hero.calla-hero .calla-hero__title {
+    max-width: 18ch;
+  }
+}
+@media (max-width: 768px) {
+  .wp-block-ai-zippy-child-calla-hero.calla-hero .calla-hero__media {
+    min-height: clamp(290px, 70vw, 480px);
+  }
+}
+@media (max-width: 480px) {
+  .wp-block-ai-zippy-child-calla-hero.calla-hero .calla-hero__title {
+    font-size: clamp(1.7rem, 10vw, 2.35rem);
+    line-height: 1.14;
+  }
+}

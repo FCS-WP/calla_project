@@ -1,0 +1,58 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ai-zippy-child/calla-nourish-hero",
+  "version": "1.0.0",
+  "title": "Calla Nourish Hero",
+  "category": "calla-nourish",
+  "icon": "heading",
+  "description": "Nourish page hero with breadcrumb, title, and background image.",
+  "keywords": [
+    "calla",
+    "nourish",
+    "hero",
+    "breadcrumb"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "breadcrumbHomeLabel": {
+      "type": "string",
+      "default": "Home"
+    },
+    "breadcrumbHomeUrl": {
+      "type": "string",
+      "default": "/"
+    },
+    "breadcrumbCurrentLabel": {
+      "type": "string",
+      "default": "Nourish"
+    },
+    "title": {
+      "type": "string",
+      "default": "Nourish"
+    },
+    "backgroundImageId": {
+      "type": "number",
+      "default": 0
+    },
+    "backgroundImageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "backgroundImageAlt": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "ai-zippy-child",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

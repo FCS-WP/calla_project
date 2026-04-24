@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ai-zippy-child/calla-connect-map",
+  "version": "1.0.0",
+  "title": "Calla Connect Map",
+  "category": "calla-connect",
+  "icon": "location",
+  "description": "Google Maps embed section for the Connect page.",
+  "keywords": [
+    "calla",
+    "connect",
+    "map",
+    "google"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "mapSrc": {
+      "type": "string",
+      "default": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127641.36!2d103.8198!3d1.3521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da11238a8b9375%3A0x887869cf52392b47!2sSingapore!5e0!3m2!1sen!2ssg!4v1700000000000!5m2!1sen!2ssg"
+    },
+    "title": {
+      "type": "string",
+      "default": "The Calla Project location"
+    },
+    "height": {
+      "type": "number",
+      "default": 420
+    }
+  },
+  "textdomain": "ai-zippy-child",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

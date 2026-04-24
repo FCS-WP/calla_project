@@ -1,0 +1,58 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "ai-zippy-child/calla-faqs-accordion",
+	"version": "1.0.0",
+	"title": "Calla FAQs Accordion",
+	"category": "calla-faqs",
+	"icon": "editor-help",
+	"description": "FAQs intro, accordion list, and contact CTA.",
+	"keywords": ["calla", "faq", "accordion", "questions"],
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"]
+	},
+	"attributes": {
+		"introHeading": {
+			"type": "string",
+			"default": "Have questions?"
+		},
+		"introText": {
+			"type": "string",
+			"default": "Below are some of our FAQs to help get you started!"
+		},
+		"ctaHeading": {
+			"type": "string",
+			"default": "Still have questions?"
+		},
+		"ctaText": {
+			"type": "string",
+			"default": "We'd love to hear from you."
+		},
+		"ctaButtonText": {
+			"type": "string",
+			"default": "Get in touch"
+		},
+		"ctaButtonUrl": {
+			"type": "string",
+			"default": "connect.html"
+		},
+		"faqs": {
+			"type": "array",
+			"default": [
+				{"question":"Question 1","answer":"Answer 1 — Replace with actual answer from Google Doc."},
+				{"question":"Question 2","answer":"Answer 2 — Replace with actual answer from Google Doc."},
+				{"question":"Question 3","answer":"Answer 3 — Replace with actual answer from Google Doc."},
+				{"question":"Question 4","answer":"Answer 4 — Replace with actual answer from Google Doc."},
+				{"question":"Question 5","answer":"Answer 5 — Replace with actual answer from Google Doc."},
+				{"question":"Question 6","answer":"Answer 6 — Replace with actual answer from Google Doc."}
+			]
+		}
+	},
+	"textdomain": "ai-zippy-child",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"render": "file:./render.php"
+}

@@ -1,0 +1,29 @@
+.wp-block-ai-zippy-child-calla-events-page-hero.calla-events-page-hero {
+	position: relative;
+	overflow: hidden;
+	background: #f5ede8;
+	padding: 80px 24px 72px;
+	text-align: center;
+
+	.calla-events-page-hero__bg {
+		position: absolute;
+		inset: 0;
+		background-position: center;
+		background-size: cover;
+		opacity: 0.22;
+	}
+
+	.calla-events-page-hero__content {
+		position: relative;
+		z-index: 1;
+	}
+
+	.calla-events-page-hero__title {
+		margin: 0;
+		color: #2c2420;
+		font-family: "Cormorant Garamond", "Times New Roman", serif;
+		font-size: clamp(44px, 6vw, 72px);
+		font-weight: 300;
+		line-height: 1.1;
+	}
+}

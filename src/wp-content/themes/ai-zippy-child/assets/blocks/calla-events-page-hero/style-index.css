@@ -1,0 +1,31 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/wp-content/themes/ai-zippy-child/src/blocks/calla-events-page-hero/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-ai-zippy-child-calla-events-page-hero.calla-events-page-hero {
+  position: relative;
+  overflow: hidden;
+  background: #f5ede8;
+  padding: 80px 24px 72px;
+  text-align: center;
+}
+.wp-block-ai-zippy-child-calla-events-page-hero.calla-events-page-hero .calla-events-page-hero__bg {
+  position: absolute;
+  inset: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.22;
+}
+.wp-block-ai-zippy-child-calla-events-page-hero.calla-events-page-hero .calla-events-page-hero__content {
+  position: relative;
+  z-index: 1;
+}
+.wp-block-ai-zippy-child-calla-events-page-hero.calla-events-page-hero .calla-events-page-hero__title {
+  margin: 0;
+  color: #2c2420;
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-size: clamp(44px, 6vw, 72px);
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
