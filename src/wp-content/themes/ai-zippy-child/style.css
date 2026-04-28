@@ -48,17 +48,17 @@ button,
 .button,
 .wp-element-button,
 .wp-block-button__link {
-  background-color: var(--calla-honey);
-  border-color: var(--calla-honey);
-  color: var(--calla-basic-black);
+  background-color: #a07060;
+  border-color: #a07060;
+  color: #fffdfa;
 }
 
 button:hover,
 .button:hover,
 .wp-element-button:hover,
 .wp-block-button__link:hover {
-  background-color: var(--calla-coral-ember);
-  border-color: var(--calla-coral-ember);
+  background-color: #8c5e50;
+  border-color: #8c5e50;
   color: #ffffff;
 }
 
@@ -717,6 +717,40 @@ body.woocommerce-checkout .wp-site-blocks > main {
 .wc-block-cart .wc-block-components-title {
   font-size: clamp(2.4rem, 4vw, 3.4rem) !important;
   line-height: 0.95;
+}
+
+.woocommerce .return-to-shop .button,
+.woocommerce .return-to-shop .wc-backward,
+.woocommerce a.button.wc-backward {
+  align-items: center;
+  background: #a07060 !important;
+  border: 1px solid #a07060 !important;
+  border-radius: 999px !important;
+  box-shadow: none !important;
+  color: #fffdfa !important;
+  display: inline-flex !important;
+  font-size: 0.95rem;
+  font-weight: 600;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  min-height: 48px;
+  padding: 0.85rem 1.6rem !important;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease, border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.woocommerce .return-to-shop .button:hover,
+.woocommerce .return-to-shop .button:focus,
+.woocommerce .return-to-shop .wc-backward:hover,
+.woocommerce .return-to-shop .wc-backward:focus,
+.woocommerce a.button.wc-backward:hover,
+.woocommerce a.button.wc-backward:focus {
+  background: #8c5e50 !important;
+  border-color: #8c5e50 !important;
+  color: #fffdfa !important;
+  transform: translateY(-1px);
 }
 
 .wc-block-cart .wc-block-cart-items th,
