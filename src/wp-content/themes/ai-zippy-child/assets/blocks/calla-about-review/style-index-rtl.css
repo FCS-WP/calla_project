@@ -34,7 +34,7 @@
 }
 .wp-block-ai-zippy-child-calla-about-review.calla-about-review .calla-about-review__media span {
   color: #7a6860;
-  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-family: var(--calla-font-header);
   font-size: 0.85rem;
   letter-spacing: 0.06em;
   line-height: 1.9;

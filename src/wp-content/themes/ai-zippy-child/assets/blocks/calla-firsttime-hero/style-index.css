@@ -32,7 +32,7 @@
 .wp-block-ai-zippy-child-calla-firsttime-hero.calla-firsttime-hero .calla-firsttime-hero__title {
   margin: 0 0 20px;
   color: #2c2420;
-  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-family: var(--calla-font-header);
   font-size: clamp(44px, 6vw, 72px);
   font-weight: 300;
   line-height: 1.1;

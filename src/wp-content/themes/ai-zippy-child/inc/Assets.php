@@ -9,7 +9,7 @@ final class Assets
     private const FANCYBOX_VERSION = '3.5.7';
     private const FANCYBOX_CSS = 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css';
     private const FANCYBOX_JS = 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js';
-    private const THEME_FONTS_CSS = 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Jost:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap';
+    private const THEME_FONTS_CSS = 'https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap';
 
     public static function register(): void
     {

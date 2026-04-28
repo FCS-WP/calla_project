@@ -30,7 +30,7 @@
 
 	.calla-nourish-info__heading {
 		margin: 0 0 1rem;
-		font-family: "Cormorant Garamond", "Times New Roman", serif;
+		font-family: var(--calla-font-header);
 		font-size: clamp(1.8rem, 4.2vw, 2.4rem);
 		font-weight: 300;
 		line-height: 1.2;
@@ -47,7 +47,7 @@
 	.calla-nourish-info__hours-title,
 	.calla-nourish-info__menu-title {
 		margin: 0;
-		font-family: "Cormorant Garamond", "Times New Roman", serif;
+		font-family: var(--calla-font-header);
 		font-size: 1.4rem;
 		font-weight: 400;
 		color: #2c2420;

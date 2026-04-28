@@ -19,7 +19,7 @@
 
 	.calla-about__title {
 		margin: 0;
-		font-family: "Cormorant Garamond", "Times New Roman", serif;
+		font-family: var(--calla-font-header);
 		font-weight: 500;
 		font-size: clamp(2.1rem, 5vw, 6rem);
 		line-height: 1;
