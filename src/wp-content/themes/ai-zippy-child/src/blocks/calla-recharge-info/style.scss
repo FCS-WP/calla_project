@@ -30,7 +30,7 @@
 
 	.calla-recharge-info__heading {
 		margin: 0 0 1rem;
-		font-family: "Cormorant Garamond", "Times New Roman", serif;
+		font-family: var(--calla-font-header);
 		font-size: clamp(1.8rem, 4.2vw, 2.4rem);
 		font-weight: 300;
 		line-height: 1.2;
@@ -51,7 +51,7 @@
 
 	.calla-recharge-info__pricing-title {
 		margin: 0 0 1.2rem;
-		font-family: "Cormorant Garamond", "Times New Roman", serif;
+		font-family: var(--calla-font-header);
 		font-size: 1.5rem;
 		font-weight: 400;
 		color: #2c2420;
@@ -86,7 +86,7 @@
 	}
 
 	.calla-recharge-info__price-amount {
-		font-family: "Cormorant Garamond", "Times New Roman", serif;
+		font-family: var(--calla-font-header);
 		font-size: 1.5rem;
 		line-height: 1;
 		white-space: nowrap;

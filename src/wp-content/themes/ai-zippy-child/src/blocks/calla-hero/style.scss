@@ -60,7 +60,7 @@
 	.calla-hero__title {
 		margin: 0;
 		max-width: min(94vw, 1160px);
-		font-family: "Cormorant Garamond", "Times New Roman", serif;
+		font-family: var(--calla-font-header);
 		font-weight: 500;
 		font-size: clamp(2.1rem, 5.1vw, 7rem);
 		line-height: 1.08;

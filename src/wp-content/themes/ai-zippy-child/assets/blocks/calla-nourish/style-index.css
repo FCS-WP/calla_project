@@ -34,7 +34,7 @@
 }
 .wp-block-ai-zippy-child-calla-nourish.calla-nourish .calla-nourish__title {
   margin: 0;
-  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-family: var(--calla-font-header);
   font-weight: 500;
   font-size: clamp(2rem, 4.8vw, 5.2rem);
   line-height: 1;

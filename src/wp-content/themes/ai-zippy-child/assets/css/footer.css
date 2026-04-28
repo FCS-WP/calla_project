@@ -81,7 +81,7 @@
 
 .script-title {
   color: #1f1f1f !important;
-  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-family: var(--calla-font-header);
   font-size: 36px !important;
   font-weight: 400;
   letter-spacing: normal;

@@ -19,7 +19,7 @@
 .wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__tagline p {
   margin: 0;
   color: #2c2420;
-  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-family: var(--calla-font-header);
   font-size: clamp(17px, 2.2vw, 22px);
   font-weight: 300;
   line-height: 1.6;
@@ -99,7 +99,7 @@
 }
 .wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__image-placeholder {
   color: #7a6860;
-  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-family: var(--calla-font-header);
   font-size: 12px;
   letter-spacing: 0.06em;
 }
@@ -147,7 +147,7 @@
 .wp-block-ai-zippy-child-calla-events-listings.calla-events-listings .calla-events-listings__body h3 {
   margin: 0 0 8px;
   color: #2c2420 !important;
-  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-family: var(--calla-font-header);
   font-size: 20px !important;
   font-weight: 400;
   line-height: 1.25 !important;
